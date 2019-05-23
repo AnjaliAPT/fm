@@ -340,21 +340,10 @@ checkTab();
 showTab();
 adjustBanner();
 function nextTab(num){
-if(currentTab==1 || currentTab==2)
-{
-if(num == 1 && !verify())
-return false;
-currentTab = currentTab + num;
-checkTab();
-showTab();
-adjustBanner();
-}
-else{
 currentTab = currentTab + num;
 checkTab();
 showTab();
 adjustBanner();   
-}
 }
     
 function checkTab(){
